@@ -21,7 +21,7 @@ public class Main {
         ensureBaseCategories(catRepo, fileRepo, eventRepo, partRepo);
 
 
-        //  Menu 
+        //  Menu
         Scanner sc = new Scanner(System.in);
         boolean running = true;
 
@@ -75,7 +75,7 @@ public class Main {
         sc.close();
     }
 
-    //  AÇÕES DO MENU 
+    //  AÇÕES DO MENU
 
     private static void listarEventosOrdenados(EventRepository eventRepo, CategoryRepository catRepo) {
         List<Event> eventos = eventRepo.findAll();
