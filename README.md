@@ -46,4 +46,4 @@ Sistema em **Java (console)** para cadastro e consulta de eventos, com persistê
 ---
 
 ## Diagrama
-![Diagrama](docs/diagrama.png)
+![Diagrama UML](docs/CityEvents_UML_Diagram.png)
